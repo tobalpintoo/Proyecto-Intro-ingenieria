@@ -1,0 +1,170 @@
+
+body {
+    scroll-behavior: smooth;
+}
+.hero-section {
+    background: url('../assets/mar1.jpg') center center/cover no-repeat;
+    min-height: 300px;
+}
+h2 {
+    color: #0077b6;
+}
+footer {
+    font-size: 14px;
+}
+
+p{
+    font-size: 20px;
+}
+
+li {
+    font-size: 18px;
+}
+
+ul {
+    list-style-position: outside; 
+}
+
+ul li {
+    text-indent: -1em;     
+    padding-left: 1.5em;   
+}
+
+.hero {
+    position: relative;
+    background-image: url("../images/pescaa.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 600px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4); 
+    z-index: 0;
+}
+
+.hero h1,
+.hero p,
+.hero button {
+    position: relative;
+    z-index: 1;
+    color: white;
+}
+
+
+.nav-a {
+    transition: color 0.3s ease;
+}
+
+
+.nav-a:hover {
+    color: #FFD700; 
+}
+
+
+.nav-a {
+    position: relative;
+}
+.nav-a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    height: 2px;
+    background-color: #FFD700;
+    transition: width 0.3s ease;
+}
+.nav-a:hover::after {
+    width: 100%;
+}
+
+
+
+.navbar-brand {
+    transition: transform 0.3s ease;
+}
+.navbar-brand:hover {
+    transform: scale(1.05);
+}
+
+
+
+
+
+
+
+#introduccion{
+    height: 350px;
+    justify-content: center;
+    background-color: gainsboro;
+    padding-top: 70px;
+    align-items: center;
+    padding-bottom: 70px;
+
+}
+
+span {
+    font-weight: bold;
+}
+
+.icono {
+    font-size: 30px;
+}
+
+.carousel-item img {
+    height: 700px;
+    object-fit: cover;
+}
+
+.overlay-container {
+    position: relative;
+}
+
+.overlay-container .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4); 
+    z-index: 1;
+}
+
+.overlay-container img {
+    position: relative;
+    z-index: 0;
+}
+
+.carousel-caption {
+    position: absolute;
+    z-index: 3;
+}
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+.botonsito {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.botonsito:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
