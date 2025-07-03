@@ -161,7 +161,11 @@ span {
 }
 
 .botonsito {
+    position: absolute;
+    top: 0;
+    right: 0;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding-right: 1rem;
 }
 
 .botonsito:hover {
@@ -172,8 +176,8 @@ span {
 @media (max-width: 768px) {
     .botonsito {
         position: static !important;
-        margin-top: 10px;
-        margin-bottom: 20px;
+        margin-top: 1rem;
+        margin-bottom: 1.5rem;
         display: block;
         text-align: center;
     }
