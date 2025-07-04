@@ -9,6 +9,9 @@ body {
 h2 {
     color: #0077b6;
 }
+h3 {
+    color: #57798b;
+}
 footer {
     font-size: 14px;
 }
@@ -182,3 +185,4 @@ span {
         text-align: center;
     }
 }
+
